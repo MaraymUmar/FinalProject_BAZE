@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Recommender</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>        
+        <form action="/recommend", method="post", class="form">
+            <h1>Recommendation Form</h1>
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter Name"><br>               
+            </div>
+            
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required placeholder="Enter current age"><br>
+            </div>
+            
+            <div class="form-group">
+                <label for="weight">Weight:</label>
+                <input type="float" id="weigth" name="weight" required placeholder="Enter weight in kg"><br>
+            </div>
+            
+            <div class=form-group>
+                <label for="height">Height:</label>
+                <input type="float" id="height" name="height" required placeholder="Enter height in cm"><br>      
+            </div>
+            
+            <div class="form-group">
+                <label for="blood_glucose_level">Blood Glucose Level:</label>
+            <input type="float" id="blood_glucose_level" name="blood_glucose_level" required placeholder="Enter BG level in mmol/l"><br>
+            </div>
+            
+            <h3>Select Recommendation Type: </h3>
+            <div class="button-group">
+                <button type="submit" name="test_type" value="fasting">Fasting Blood Test</button>
+                <button type="submit" name="test_type" value="random">Random Blood Test</button>
+            </div>
+        </form>
+</body>
+</html>

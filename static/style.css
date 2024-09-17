@@ -1,0 +1,112 @@
+body {
+    background: url('foodimage1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    width: 50%; 
+    padding: 30px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin: auto;
+}
+
+h1, h2, h3, p {
+    color: #faf8f8;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 680px;
+    width: 600px;
+    margin-top: 70px;       
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 25px;
+    margin: auto;
+
+}
+
+.form-group label{
+    text-align: left;
+    width: 75px;
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    height: 55px;
+}
+
+.form-group{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    width: 75%;
+}
+
+input[type="text"], input[type="number"], input[type="float"], input[type="submit"], button{
+    padding: 7px;
+    width: 85%;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+input[type="submit"], button{
+    background-color: lightcoral;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    grid-column: span 0;
+}
+
+input[type="submit"]:hover, button:hover{
+    background-color: maroon;
+}
+
+input[type="float"], input[type="text"], input[type="number"]{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.box{
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.10);
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+    list-style: 1.6;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+}
