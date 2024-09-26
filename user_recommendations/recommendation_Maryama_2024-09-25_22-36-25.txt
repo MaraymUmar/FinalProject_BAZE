@@ -1,0 +1,6 @@
+Name: Maryama
+BMI: 28.73469387755102
+BMI Classification: Overweight.
+Blood Glucose Level: 5.5
+Recommendation:
+ Hello Maryama, your random blood glucose level is low, you should consume high glycemic food like: Bagel<br>Irish potatoes<br>Wheat bread<br>Cake slice<br>Macaroons<br>Plain doughnuts<br>Cassava<br>Corn cereal.

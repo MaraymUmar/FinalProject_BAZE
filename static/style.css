@@ -22,14 +22,15 @@ body {
     margin: auto;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, p, small{
     color: #faf8f8;
+    padding: -5px;
 }
 
 .form{
     display: flex;
     flex-direction: column;
-    height: 680px;
+    height: 800px;
     width: 600px;
     margin-top: 70px;       
     align-items: center;
@@ -41,9 +42,10 @@ h1, h2, h3, p {
 }
 
 .form-group label{
-    text-align: left;
+    text-align: center;
     width: 75px;
     font-weight: bold;
+    color: rgb(20, 4, 4);
 }
 
 .button-group {

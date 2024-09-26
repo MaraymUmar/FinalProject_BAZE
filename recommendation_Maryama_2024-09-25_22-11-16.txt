@@ -1,0 +1,6 @@
+Name: Maryama
+BMI: 28.40909090909091
+BMI Classification: Overweight.
+Blood Glucose Level: 5.5
+Recommendation:
+ Hello Maryama, your fasting blood glucose level is normal. Maintain diet or consume low glycemic food like: Kale<br>Spinash<br>Asparagus<br>Eggplant<br>Scotch bonnet<br>Raspberries<br>Watermelons<br>Guava.
